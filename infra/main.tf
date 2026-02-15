@@ -21,7 +21,7 @@ resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
 resource "aws_lambda_function" "cdp_lambda" {
   function_name = "cdp-lambda"
   role          = aws_iam_role.lambda_exec.arn
-  handler       = "handler.lambda_handler"
+  handler       = "app.handler.lambda_handler"
   runtime       = "python3.11"
 
   filename         = "${path.module}/lambda.zip"
