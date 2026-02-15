@@ -10,3 +10,6 @@ override.tf.json
 *_override.tf.json
 terraform.tfvars
 terraform.tfvars.json
+lambda.zip
+handler.py
+
