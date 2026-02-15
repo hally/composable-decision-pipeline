@@ -12,8 +12,6 @@ This is intentionally **not an AI project**. The point is to demonstrate how to 
 - **Governable** (explicit logic and traceability)
 - **Composable** (small steps you can add/reorder safely)
 
-> ⚠️ Security note: Do not publish your live API URL in this repo or on LinkedIn.
-
 ---
 
 ## Architecture
